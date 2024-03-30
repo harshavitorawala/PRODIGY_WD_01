@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #c5c5c5f1;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #4c00ff;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #dddddd;
+  color: black;
+}
+
+.active {
+  background-color: #0266fd;
+}
+
+.content {
+  padding: 20px;
+  margin-top: 50px; /* Adjust according to navbar height */
+  height: 2000px; /* Just to create scrolling effect */
+  text-align: center;
+}
